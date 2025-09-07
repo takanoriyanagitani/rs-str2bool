@@ -1,0 +1,13 @@
+[package]
+name = "rs-str2bool"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[dependencies]
